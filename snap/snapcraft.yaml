@@ -67,3 +67,5 @@ apps:
       - network
       - home
       - etc-apt-auth-conf-d
+    environment:
+      XDG_CACHE_HOME: ${SNAP_USER_DATA}/.cache
